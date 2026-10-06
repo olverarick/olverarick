@@ -18,6 +18,7 @@ I enjoy turning complex technical environments into **simple, observable and mai
 - 📡 **Observability** — telemetry, tracing, metrics and operational visibility
 - 📨 **Distributed Systems** — messaging and event-driven architectures
 - 🧩 **Domain-Driven Design** — bounded contexts and clear domain boundaries
+- 🤖 **AI Engineering & Automation** — Claude Code skills and plugin marketplaces that automate institutional workflows
 
 ---
 
@@ -94,6 +95,8 @@ I'm exploring and building around:
 ---
 
 ## 📌 Featured Work
+
+**[claude_skills](https://github.com/olverarick/claude_skills)** — a plugin marketplace for Claude Code with skills for institutional technology architecture governance and IT management, each skill shipped as an independently versioned plugin.
 
 > This profile is evolving. My goal is to publish **practical architecture patterns, DevOps experiments, reusable components and technical labs** rather than just collections of code.
 
