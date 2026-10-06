@@ -45,26 +45,22 @@ I enjoy turning complex technical environments into **simple, observable and mai
 
 I am particularly interested in architectures that make systems easier to **understand, change, deploy and operate**.
 
-```text
-                    ┌─────────────────────────┐
-                    │       Applications       │
-                    └────────────┬────────────┘
-                                 │
-                    ┌────────────▼────────────┐
-                    │    Modular Services     │
-                    └────────────┬────────────┘
-                                 │
-              ┌──────────────────┼──────────────────┐
-              │                  │                  │
-        ┌─────▼─────┐      ┌─────▼─────┐      ┌────▼──────┐
-        │ Identity  │      │ Messaging  │      │Observability│
-        │  OIDC     │      │ RabbitMQ   │      │   OTel     │
-        └───────────┘      └────────────┘      └────────────┘
-                                 │
-                    ┌────────────▼────────────┐
-                    │   Cloud-Native Platform │
-                    │ Kubernetes / OpenShift  │
-                    └─────────────────────────┘
+```mermaid
+flowchart TB
+    APP["Applications"]
+    SVC["Modular Services"]
+    ID["Identity\nOIDC / Keycloak"]
+    MSG["Messaging\nRabbitMQ"]
+    OBS["Observability\nOpenTelemetry"]
+    PLAT["Cloud-Native Platform\nKubernetes / OpenShift"]
+
+    APP --> SVC
+    SVC --> ID
+    SVC --> MSG
+    SVC --> OBS
+    ID --> PLAT
+    MSG --> PLAT
+    OBS --> PLAT
 ```
 
 ### Principles I value
