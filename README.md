@@ -98,6 +98,8 @@ I'm exploring and building around:
 
 **[claude_skills](https://github.com/olverarick/claude_skills)** — a plugin marketplace for Claude Code with skills for institutional technology architecture governance and IT management, each skill shipped as an independently versioned plugin.
 
+I'm also building a private, fully integrated system split into dedicated repos — **frontend**, **backend**, **messaging (RabbitMQ)** and **infrastructure as code** — as a real-world application of the architecture principles above.
+
 > This profile is evolving. My goal is to publish **practical architecture patterns, DevOps experiments, reusable components and technical labs** rather than just collections of code.
 
 Some areas I plan to showcase:
